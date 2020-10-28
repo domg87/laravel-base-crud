@@ -44,7 +44,7 @@ class BookController extends Controller
             'author' => "required|max:50",
             'pages' => "required|integer",
             'edition' => "required|max:50",
-            'year' => "required|data",
+            'year' => "required|date",
             'isbn' => "required|unique:books|max:13",
             'genre' => "required|max:30",
             'images' => "required",
